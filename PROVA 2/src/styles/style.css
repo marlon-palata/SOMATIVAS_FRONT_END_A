@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+body {
+  background-color: #fdfaf6;
+  color: #4b3832;
+}
+header {
+  background-color: #6f4e37;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  border-bottom: 5px solid #4b3832;
+}
+.container {
+  max-width: 800px;
+  margin: 30px auto;
+  padding: 0 20px;
+}
+.painel {
+  background: white;
+  padding: 25px;
+  border-radius: 10px;
+  margin-bottom: 25px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.06);
+  transition: all 0.4s ease;
+}
+h2 {
+  color: #6f4e37;
+  margin-bottom: 15px;
+  font-size: 1.5rem;
+  border-bottom: 2px solid #fdfaf6;
+  padding-bottom: 5px;
+}
+.grupo-input {
+  margin-bottom: 15px;
+}
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #854442;
+}
+input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #d3c4bd;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+.total {
+  font-size: 1.2rem;
+  margin-top: 10px;
+}
+.total strong {
+  color: #d9a05b;
+  font-size: 1.5rem;
+}
+
+.produto-dica {
+  text-align: center;
+  margin-bottom: 15px;
+}
+.img-produto {
+  max-width: 130px;
+  height: auto;
+  border-radius: 50%;
+  border: 3px solid #6f4e37;
+  padding: 4px;
+}
+
+.btn-primario,
+.btn-secundario {
+  border: none;
+  padding: 12px;
+  width: 100%;
+  border-radius: 5px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.btn-primario {
+  background-color: #6f4e37;
+  color: white;
+}
+.btn-primario:hover {
+  background-color: #4b3832;
+}
+.btn-secundario {
+  background-color: #be9063;
+  color: white;
+  margin-bottom: 15px;
+}
+.btn-secundario:hover {
+  background-color: #854442;
+}
+
+/* =========================================
+   CLASSES QUE DEVE DESCOMENTAR E COMPLETAR
+   ========================================= */
+
+/* Missão 2: Estilo para quando o rato entra no banner do Barista (.aroma-destaque) */
+/* Dica: Altere a cor de fundo para #854442 e a cor do texto para branco (#ffffff). A transformação de escala já está pronta! */
+
+/*
+.aroma-destaque {
+    
+    
+    transform: scale(1.04);
+}
+.aroma-destaque h2 {
+    color: white;
+    border-color: white;
+}
+*/
+
+/* Missão 4: Estilo do card de pedido adicionado (.card-pedido) */
+/* Dica: Adicione uma linha de borda de 2px solid #6f4e37, um preenchimento interno (espaçamento) de 15px, pontas arredondadas de 8px e cor de fundo branca (#ffffff) */
+
+/*
+.card-pedido {
+    margin-bottom: 10px;
+    
+    
+    
+    
+}
+*/

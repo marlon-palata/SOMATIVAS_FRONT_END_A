@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="pt-pt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Code & Coffee - Cafetaria Dev</title>
+    <link rel="stylesheet" href="src/styles/style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Code & Coffee ☕</h1>
+      <p id="saudacao-cafetaria">A aquecer as máquinas...</p>
+    </header>
+
+    <main class="container">
+      <section id="banner-especialidade" class="painel">
+        <h2>Especialidade do Barista! 🤎</h2>
+        <p>Passe o rato aqui para ver a recomendação de hoje.</p>
+      </section>
+
+      <section class="painel">
+        <h2>Calculadora de Cafés (R$ 12,00 / unidade)</h2>
+
+        <div class="produto-dica">
+          <img
+            src="src/images/cafe.png"
+            alt="Caneca de Café Quente"
+            class="img-produto"
+          />
+        </div>
+
+        <div class="grupo-input">
+          <label for="qtd-cafes">Quantos cafés a equipe vai querer?</label>
+          <input type="number" id="qtd-cafes" min="1" value="0" />
+        </div>
+        <p class="total">
+          Total a pagar: R$ <strong id="total-pagar">0.00</strong>
+        </p>
+      </section>
+
+      <section class="painel">
+        <h2>Fazer o Pedido</h2>
+        <div class="grupo-input">
+          <label>Qual bebida vai querer?</label>
+          <input
+            type="text"
+            id="nome-cafe"
+            placeholder="Ex: Cappuccino, Expresso, Macchiato..."
+          />
+        </div>
+        <button id="btn-pedir" class="btn-primario">Pedir Café</button>
+      </section>
+
+      <section class="painel vitrine">
+        <h2>A Preparar ao Balcão</h2>
+        <button id="btn-cancelar" class="btn-secundario">Cancelar Tudo</button>
+
+        <div id="lista-pedidos"></div>
+      </section>
+    </main>
+    <script src="src/scripts/script.js"></script>
+  </body>
+</html>
